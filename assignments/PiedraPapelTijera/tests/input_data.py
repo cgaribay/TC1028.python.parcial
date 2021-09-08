@@ -8,32 +8,32 @@
 input_values = [
         # Test case 1
         (
-            ["a", "p"],
-            ["Tirada de Ana: ", "Tirada de Juan: ", "Gana Juan"],
+            ["3", "a", "p", "t", "p", "a", "a"],
+            ["Número de juegos: ", "Tirada de Ana: ", "Tirada de Juan: ", "Gana Juan", "Tirada de Ana: ", "Tirada de Juan: ", "Gana Ana", "Tirada de Ana: ", "Tirada de Juan: ", "Empate"],
             "Revisa tu código",
         ),
         # Test case 2
         (
-            ["t", "p"],
-            ["Tirada de Ana: ", "Tirada de Juan: ", "Gana Ana"],
+            ["4", "piedra", "a"],
+            ["Número de juegos: ", "Tirada de Ana: ", "Tirada de Juan: ", "Las tiradas deben ser un caracter"],
             "Revisa tu código",
         ),
         # Test case 3
         (
-            ["a", "a"],
-            ["Tirada de Ana: ", "Tirada de Juan: ", "Empate"],
+            ["3", "t", "a", "p", "r"],
+            ["Número de juegos: ", "Tirada de Ana: ", "Tirada de Juan: ", "Gana Juan", "Tirada de Ana: ", "Tirada de Juan: ", "Tirada incorrecta"],
             "Revisa tu código",
         ),
         # Test case 4
         (
-            ["piedra", "a"],
-            ["Tirada de Ana: ", "Tirada de Juan: ", "Las tiradas deben ser un caracter"],
+            ["0"],
+            ["Número de juegos: ", "Las jugadas deben ser mayor a 0"],
             "Revisa tu código",
         ),
         # Test case 5
         (
-            ["p", "r"],
-            ["Tirada de Ana: ", "Tirada de Juan: ", "Tirada incorrecta"],
+            ["3", "p", "a", "p", "t", "t", "t"],
+            ["Número de juegos: ", "Tirada de Ana: ", "Tirada de Juan: ", "Gana Ana", "Tirada de Ana: ", "Tirada de Juan: ", "Gana Juan", "Tirada de Ana: ", "Tirada de Juan: ", "Empate"],
             "Revisa tu código",
-        ),
+        )
     ]
